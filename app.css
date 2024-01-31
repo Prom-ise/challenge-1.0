@@ -1,0 +1,452 @@
+body{
+  overflow-x: hidden;
+}
+nav{
+   background-color: black;
+   width: 99%;
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: -10px 5px 10px -10px;
+   padding: 0px 20px 0px 15px;
+}
+
+.SearchInput{
+    background-color: black;
+    padding: 5px;
+    border-color: #808080;
+    border-radius: 7px;
+    width: 400px;
+    color: white;
+}
+.SearchInput:hover{
+  border-color: white;
+}
+
+.nav-links{
+    margin-top: 20px;
+}
+
+.input-with-svg {
+    position: relative;
+    display: inline-block;
+   
+}
+
+#svgInput {
+    padding-left: 30px;
+}
+
+#svgIcon {
+    position: absolute;
+    top: 50%;
+    left: 8px; 
+    transform: translateY(-50%);
+    fill: #ccc; 
+    pointer-events: none; 
+}
+
+.DaviiButton{
+    padding: 5px 0px 5px 8px;
+    background-color: #303030;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.DaviiButton:hover{
+  background-color: #616161;
+}
+
+.dc{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  margin-top: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin-left: -165px;
+  border-radius: 14px;
+}
+
+.show {
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: #2a75d9;
+}
+
+.menu-icon{
+  height: 27px;
+  width: 32px;
+  padding-right: 6px;
+  border-radius: 8px;
+  border: none;
+  background-color: #303030;
+}
+
+.menu-icon:hover{
+  background-color: #dbdbdb;
+}
+
+.custom-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: none;
+  border-radius: 14px;
+}
+
+
+.show {
+  display: block;
+}
+
+
+.dropmenu{
+  margin: 2px 6px 6px 6px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+  padding: 6px;
+  width: 285px;
+  text-align: left;
+}
+.DaviiButtons{
+  margin: 2px 6px 6px 6px;
+  border: none;
+  border-radius: 8px;
+  width: 285px;
+  text-align: left;
+  padding: 6px 0 6px 0;
+  display: flex;
+  gap: 100px;
+}
+.dropmenu:hover{
+  background-color: #f1f1f1;
+  transition: 0.3s ease;
+}
+.David{
+  
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.mich{
+  margin-top: -4px;
+font-family: Inter;
+font-size: 11px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+main{
+ padding-top: 92px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.bell{
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdown{
+  position: relative;
+}
+
+.dropdown:hover{
+  cursor: pointer;
+}
+
+.custom-dropdown-content{
+  display: none;
+  position: absolute;
+  padding: 10px;
+  margin-left: -160px;
+  margin-top: 10px;
+}
+
+.dropdown:hover .custom-dropdown-content{
+  display: block;
+}
+
+.Section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CenteredSection{
+   box-sizing: border-box;
+   background-color: #1a1a1a;
+   color: white;
+   border-radius: 8px;
+   width: 800px;
+   padding: 12px 8px 12px 8px;
+   justify-content: space-between;
+}
+
+.Extend{
+    margin-top: 10px;
+}
+
+.PlansButton{
+    background-color: white;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 7px;
+}
+
+.section2{
+  box-sizing: border-box;
+  border: 1px solid #dbdbdb;
+  border-radius: 18px;
+  width: 800px;
+  max-height: 431px;
+  margin-top: 40px;
+  padding: 8px;
+}
+
+.Extend{
+font-family: Inter;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#hiddenContent{
+  display: none;
+}
+
+#expandButton{
+  display: none;
+}
+
+
+.Setup{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #303030;
+}
+
+.Use{
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #303030;
+}
+
+.complete{
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.flex{
+  float: right;
+  margin-top: -87px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  display: none;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 6px;
+  background-image: linear-gradient(to right, black 0%, black 20%, #e3e3e3 20%, #e3e3e3 100%);
+  border-radius: 8px;
+  outline: none;
+}
+
+.ul{
+  list-style: none;
+  padding: 0;
+}
+
+.background-item.active {
+  background-color: #f3f3f3; 
+  padding: 2px 8px 12px 2px; 
+  border-radius: 10px;
+  border: none;
+}
+
+
+.list-item{
+    padding-left: 25px;
+    background: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'40\' height=\'50\' viewBox=\'0 0 32 32\' fill=\'none\'%3E%3Ccircle cx=\'16\' cy=\'16\' r=\'12\' stroke=\'%23a6a6a6\' stroke-width=\'2.5\' stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-dasharray=\'4%206\' /%3E%3C/svg%3E') left center no-repeat;
+    background-size: 20px 20px;
+    margin-bottom: 10px;
+  }
+  
+.list-item{
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.list-item:hover{
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 28 28" fill="none"><path d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2" stroke="grey" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  background-repeat: no-repeat;
+}
+
+  .accordion_item {
+    display: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  }
+  
+  .accordion_item.active {
+    display: block;
+    margin-left: 25px;
+    display: flex;
+    gap: 92px;
+  }
+  
+.toggle-image{
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'40\' height=\'50\' viewBox=\'0 0 32 32\' fill=\'none\'%3E%3Ccircle cx=\'16\' cy=\'16\' r=\'12\' stroke=\'%23a6a6a6\' stroke-width=\'2.5\' stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-dasharray=\'4%206\' /%3E%3C/svg%3E');
+}
+
+.toggle-image.active{
+  background-image: url(https://crushingit.tech/hackathon-assets/icon-checkmark-circle.svg);
+  background-repeat: no-repeat;
+}
+
+  .customButton{
+    padding: 12px, 12px;
+    border-radius: 6px;
+    border-top: 1.5px solid var(--stroke-light-100, rgba(255, 255, 255, 0.20));
+    border-right: 1.5px solid var(--stroke-light-100, rgba(255, 255, 255, 0.20)) ;
+    border-left: 1.5px solid var(--stroke-light-100, rgba(255, 255, 255, 0.20)) ;
+    color: #f6f3f6;
+    cursor: pointer;
+    background: #404040;
+    box-shadow: 0px  0px 0px 1.5px #333, 0px 1px 0px 1.5px #333, 0px 2px 0px 0px #000;
+    height: 30px;
+  }
+
+.transparent{
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px 6px 12px;
+  gap: 8px;
+  background-color: #f3f3f3;
+}
+.transparent:hover{
+  background-color: #9f9f9f;
+}
+
+
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 767px) {
+  .DaviiButton{
+    display: none;
+  }
+  .SearchInput{
+    width: 200px;
+    height: 30px;
+  }
+  .Shopify{
+    background-image: url(https://crushingit.tech/hackathon-assets/shopify-icon.svg);
+    background-repeat: no-repeat;
+  }
+  .shopify{
+    display: none;
+  }
+  .custom-dropdown-content{
+    margin-left: -210px;
+    width: 210px;
+    padding-right: -200px;
+  }
+  .Section1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .CenteredSection{
+    width: 250px;
+    margin-left: -120px;
+    font-size: 6px;
+  }
+  .dropdown{
+    margin-left: -150px;
+  }
+  img{
+    display: none;
+  }
+  .section2{
+    width: 250px;
+    margin-left: -120px;
+    font-size: 6px;
+    height: 700px;
+    padding-bottom: 600px;
+  }
+  .CenteredSection-II{
+    height: 106px;
+  }
+}
